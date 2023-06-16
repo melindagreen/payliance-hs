@@ -1,0 +1,12 @@
+defaultPortal: Payliance
+portals:
+  - name: Payliance
+    portalId: 3406356
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CK3hiauMMRIOAAUAQAAAAGwAQAJYAgEYlPTPASCDzZkDKO7pDDIUtHfGx1ch8Y0iNHPcrAC2h01JbrI6MAAABEEAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAAAAPGBQAABEAABA_BgGABAgA0IUl6QQgoAIzmVg90TXTAQU-huS3T1KA25hMVIAWgA
+        expiresAt: '2023-06-16T18:05:42.981Z'
+    personalAccessKey: >-
+      CiQ0Y2M0NThlMi0yNWI5LTRjNzUtOTgzMy1mNTYyMThjZjVhMjAQlPTPARiDzZkDKhkABeaRgo_BCYx5oLxrTdfc48t8gSowmVS9SgNuYTE

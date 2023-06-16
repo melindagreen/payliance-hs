@@ -1,0 +1,8 @@
+<nav class="footer-nav">
+  <strong class="footer-nav__title">{{ module.title }}</strong>
+  <ul>
+     {% for item in module.menu_group %}
+      <li><a href="{{item.link_src.url.href}}">{{item.link_text}}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

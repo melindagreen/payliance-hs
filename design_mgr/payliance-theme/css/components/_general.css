@@ -1,0 +1,315 @@
+.page-landing .landing-header {
+  background-image: url('https://f.hubspotusercontent00.net/hubfs/3406356/lp/waves-wide.svg');
+  background-size: cover;
+}
+.my-container,
+.landing-header .top-container {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.landing-header .top-container {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.page-landing_thanks .landing-header .top-container {
+  padding-top: 10px;
+}
+.page-landing_thanks .landing-header {
+  margin-bottom: 30px;
+}
+.page-landing_thanks #main-content {
+  padding-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .my-container,
+  .landing-header .top-container {
+    max-width: 740px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .my-container {
+    max-width: 980px;
+    padding-right: 400px;
+  }
+  .landing-header .top-container {
+    max-width: 980px;
+  }
+  .page-landing_thanks .my-container {
+    padding-right: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .my-container {
+    padding-right: 380px;
+  }
+  .page-landing_thanks .my-container {
+    padding-right: 0;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .landing-header .top-container,
+  .my-container {
+    max-width: 1260px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .landing-header .top-container {
+    max-width: 1440px;
+  }
+}
+.landing-header {
+  
+}
+.my-container.my-container_form {
+  position: relative;
+  padding: 40px 0 0;
+}
+.landing-content {
+  color: #01112b;
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  font-style: 300;
+}
+.landing-content ul li {
+  margin-bottom: 15px;
+}
+.landing-content h2,
+.landing-content h3,
+.landing-content h4 {
+  margin: 0 0 30px;
+  font-size: 24px;
+  color: #000;
+}
+.landing-content p {
+  font-size: 19px;
+  line-height: 30px;
+}
+.faq-section .dnd-section,
+.faq-section .dnd-section .dnd-column {
+  padding: 0;
+}
+.faq-section .dnd-section > .row-fluid {
+  max-width: 100%;
+}
+.faq-section .accordion_header {
+  color: #3eb2ed;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  padding: 28px 40px 28px 0;
+}
+.faq-section .accordion_header .accordion_icon {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  border: 2px solid #3eb2ed;
+  border-width: 0 0 2px 2px;
+  transform: rotate(-45deg);
+  width: 10px;
+  height: 10px;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  transition: all 0.5s ease-out;
+}
+.faq-section .accordion_header .accordion_icon::before,
+.faq-section .accordion_header .accordion_icon::after {
+  display: none;
+}
+.faq-section .accordion_group {
+  padding: 0;
+  background: none;
+  border-top: 2px solid #f1f1f1;
+}
+.faq-section .accordion_group.expanded .accordion_header {
+  color: #01112b;
+}
+.faq-section .accordion_group.expanded .accordion_header .accordion_icon {
+  border-color: #01112b;
+  transform: rotate(135deg);
+}
+.faq-section {
+  border-bottom: 2px solid #f1f1f1;
+}
+.faq-section .accordion_content {
+  padding: 15px 0;
+  font-size: 16px;
+  line-height: 30px;
+}
+#main-content {
+  padding: 40px 0;
+}
+@media screen and (min-width: 992px) {
+  #main-content {
+    padding: 50px 25px 130px 0;
+    max-width: 720px;
+  }
+  .page-landing_thanks #main-content {
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #main-content {
+    max-width: 950px;
+  }
+}
+.page-landing .page-container {
+  display: flex;
+}
+.page-landing .body-wrapper {
+  flex-grow: 1;
+}
+.page-landing .page-aside {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #01112b;
+}
+.page-landing .page-aside.page-aside_thanks {
+  position: static;
+  max-width: 500px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+  .page-landing .page-aside {
+    position: absolute;
+    right: 0;
+    top: -484px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-landing .page-aside {
+    max-width: 480px;
+  }
+}
+.aside-form__head {
+  color: #9093a8;
+  font-family: Merriweather;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.aside-form__head h2 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.aside-form__head p {
+  font-size: 19px;
+  line-height: 26px;
+}
+.aside-form {
+  padding: 25px;
+  color: #fff;
+}
+@media screen and (min-width: 1200px) {
+  .aside-form {
+    padding: 50px;
+  }
+}
+.landing-header .header__logo--main {
+  padding: 0;
+}
+.splash-content {
+  padding: 40px 0;
+}
+@media screen and (min-width: 768px) {
+  .splash-content {
+    display: flex;
+    align-items: center;
+    height: 400px;
+  }
+}
+.aside-form form .hs-form-field {
+  margin-bottom: 20px;
+}
+.aside-form form .hs-input {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #303c59;
+  color: #fff;
+  padding: 15px 0;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.aside-form form .hs-input:focus {
+  outline: none;
+  border-color: #3eb2ed;
+}
+.aside-form form label {
+  color: #9093a8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Manrope;
+  font-size: 11px;
+  margin: 0;
+  font-weight: 800;
+}
+.aside-form .hs-button.primary {
+  color: #ffffff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #3eb2ed;
+  border-radius: 4px;
+  text-align-last: left;
+  width: 100%;
+  padding: 23px 37px 23px 8px;
+}
+@media screen and (min-width: 576px) {
+  .aside-form .hs-button.primary {
+    padding: 23px 50px 23px 22px;
+  }
+}
+.aside-form .actions {
+  position: relative;
+}
+.aside-form .actions:after {
+  content: "";
+  background: url(https://f.hubspotusercontent00.net/hubfs/3406356/lp/arrow.jpg);
+  background-size: 13px 10px;
+  right: 15px;
+  top: 50%;
+  margin-top: -5px;
+  width: 13px;
+  height: 10px;
+  position: absolute;
+  z-index: 5;
+}
+/*.new-footer .my-container {
+  padding-right: 0;
+}*/
+.page-landing_thanks .body-wrapper {
+display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.page-landing_thanks .page-content {
+  flex-grow: 1;
+}
+.page-landing_thanks {}
+
+@media screen and (min-width: 992px) {
+  .page-landing .aside-form {
+    background-color: #01112b;
+    width: 33%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+.aside-form form select.hs-input option {
+  color: #000;
+}

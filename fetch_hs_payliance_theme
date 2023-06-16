@@ -1,0 +1,4 @@
+#!/bin/zsh
+# Fetch Coded files directory from HS Design Manager
+
+hs fetch --account=3406356 /payliance-theme design_mgr/payliance-theme

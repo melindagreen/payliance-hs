@@ -1,0 +1,40 @@
+<!--
+  templateType: global_partial
+  label: Footer
+-->
+<!-- <footer class="footer">
+  <div class="my-container">
+    <div class="footer-flex">
+      <div class="footer__copyrights">
+        <span>© {{ year }} Payliance. All rights reserved.</span>
+      </div>
+      <div class="footer__nav">
+        {% module "footer-menu" path="@hubspot/menu" %}
+      </div>
+    </div>
+  </div>
+</footer> -->
+<footer class="new-footer">
+  <div class="my-container">
+    <div class="footer-flex">
+      <div class="footer__box">
+        {% module "footer-1" path="/payliance-theme/modules/footer-nav"  %}
+      </div>
+      <div class="footer__box">
+        {% module "footer-2" path="/payliance-theme/modules/footer-nav"  %}
+      </div>
+      <div class="footer__box">
+        {% module "footer-3" path="/payliance-theme/modules/footer-nav"  %}
+        {% module "footer-4" path="/payliance-theme/modules/footer-nav"  %}
+      </div>
+      <div class="footer__box footer__box-developers">
+        {% module "footer-5" path="/payliance-theme/modules/footer-nav"  %}
+      </div>
+    </div>
+  </div>
+  <div class="footer__copyrights">
+    <div class="my-container">
+      <span>© {{ year }} Payliance. All rights reserved.</span>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,4 @@
+#!/bin/zsh
+# Watch this project in HS Design Manager
+
+hs watch --disable-initial=true design_mgr /

@@ -1,0 +1,16 @@
+{
+  "label": "Payliance",
+  "preview_path": "./templates/landing-page.html",
+  "screenshot_path": "./images/template-previews/landing-6.png",
+  "enable_domain_stylesheets": false,
+  "license": "./license.txt",
+  "responsive_breakpoints": [
+    {
+      "name": "mobile",
+      "mediaQuery": "@media (max-width: 767px)",
+      "previewWidth": {
+        "value": 477
+      }
+    }
+  ]
+}
